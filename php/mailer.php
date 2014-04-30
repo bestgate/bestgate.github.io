@@ -34,7 +34,7 @@ $message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: http://bestgate.local/email-confirm.html');
+header('Location: /email-confirm.html');
 exit();
 
 /* Functions we used */
